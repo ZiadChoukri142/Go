@@ -1,0 +1,1 @@
+ls -ump | sed 's/ //g'
