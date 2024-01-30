@@ -1,6 +1,6 @@
 package piscine
 
-func BubbleSort(arr []int) []int {
+func BubbleSort2(arr []int) []int {
 	length := len(arr)
 	for i := 0; i < length-1; i++ {
 		for j := 0; j < length-i-1; j++ {
@@ -13,7 +13,7 @@ func BubbleSort(arr []int) []int {
 }
 
 func Max(a []int) int {
-	sortedArray := BubbleSort(a)
+	sortedArray := BubbleSort2(a)
 	length := len(sortedArray)
 	return sortedArray[length-1]
 }
